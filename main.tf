@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "rg" {
   location = "westus2"
 
   tags = {
-    Environment = "HCP_test3"
+    Environment = "Testing pull request"
     Team        = "DevOps"
   }
 }
