@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "rg" {
   location = "westus2"
 
   tags = {
-    Environment = "Testing run triggers 2"
+    Environment = "Testing run triggers 4"
     Team        = "DevOps"
   }
 }
