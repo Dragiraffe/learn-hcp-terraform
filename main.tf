@@ -22,7 +22,7 @@ resource "azurerm_resource_group" "rg" {
   location = "westus2"
 
   tags = {
-    Environment = "Testing pull request"
+    Environment = "Testing run triggers"
     Team        = "DevOps"
   }
 }
