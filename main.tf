@@ -8,7 +8,7 @@ terraform {
   }
   cloud {
     organization = "AdriTanulTF"
-    workspaces { 
+    workspaces {
       name = "learn-hcp-terraform"
     }
   }
