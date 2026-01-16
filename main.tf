@@ -7,7 +7,7 @@ terraform {
     }
   }
   cloud {
-    organization = var.organization_name
+    organization = "AdriTanulTF"
     workspaces {
       name = "learn-hcp-terraform"
     }
