@@ -3,5 +3,5 @@ variable "resource_group_name" {
 }
 
 variable "organization_name" {
-  value = "AdriTanulTF"
+  default = "AdriTanulTF"
 }
